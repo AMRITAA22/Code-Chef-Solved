@@ -1,0 +1,6 @@
+t = int(input())
+for _ in range(t):
+    x, y, z = map(int, input().split())
+    seats_available = x * 10
+    people_to_charge = min(seats_available, y)
+    print(people_to_charge * z)
