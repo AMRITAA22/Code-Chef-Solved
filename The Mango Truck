@@ -1,0 +1,8 @@
+def sol():
+    x, y, z = map(int, input().split())
+    max_m = (z - y) // x
+    print(max_m)
+
+t = int(input())
+for _ in range(t):
+    sol()
