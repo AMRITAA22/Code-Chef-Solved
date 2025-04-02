@@ -1,0 +1,6 @@
+# cook your dish here
+n,b=map(int,input().split())
+if b*10<=n:
+    print("yes")
+else:
+    print("no")
