@@ -1,0 +1,6 @@
+# cook your dish here
+w,h=map(int,input().split())
+if 60<=w and 130>=h:
+    print("yes")
+else:
+    print("no")
